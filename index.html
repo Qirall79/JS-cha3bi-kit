@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JS Drum Kit</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <video autoplay muted loop id="myVideo">
+      <source src="./vid.mp4" type="video/mp4" />
+    </video>
+
+    <div class="keys">
+      <div data-key="malhoufa" class="key">Malhoufa ki konti</div>
+      <div data-key="chifourk" class="key">Chifourek a 7lima</div>
+      <div data-key="hanonono" class="key">Ha no no no</div>
+      <div data-key="rouge" class="key">Rouge fel mala</div>
+      <div data-key="slougiya" class="key">Slouguiya Haw</div>
+    </div>
+
+    <audio data-key="malhoufa" src="sounds/malhoufa.mp3"></audio>
+    <audio data-key="chifourk" src="sounds/chifourk.mp3"></audio>
+    <audio data-key="hanonono" src="sounds/hanonono.mp3"></audio>
+    <audio data-key="rouge" src="sounds/rouge.mp3"></audio>
+    <audio data-key="slougiya" src="sounds/slougiya.mp3"></audio>
+
+    <script src="index.js"></script>
+  </body>
+</html>
